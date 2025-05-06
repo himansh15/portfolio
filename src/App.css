@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  background-color: #f9f9f9;
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 100px;
+  padding: 100px 20px;
+  min-height: 100vh;
+}
+
+h1, h2 {
+  color: #333;
+  text-align: center;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden; /* 💡 Prevents horizontal scrolling */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a, button {
+  transition: all 0.3s ease;
+}
+
