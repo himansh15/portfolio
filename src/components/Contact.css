@@ -1,0 +1,57 @@
+/* Contact section with background image */
+#contact {
+    background-image: url('C:\Users\KIIT0001\OneDrive\Desktop\Portfolio\portfolio\src\assets\contact.jpg'); /* Replace with your preferred background */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 100px 20px;
+    color: #fff;
+    min-height: 100vh;
+  }
+  
+  /* Overlay for readability */
+  .contact-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Contact card */
+  .contact-card {
+    background: #ffffff;
+    color: #333;
+    max-width: 600px;
+    width: 100%;
+    padding: 2.5rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    text-align: center;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  /* Contact links */
+  .contact-card a {
+    color: #00b4d8;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  .contact-card a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Heading */
+  .contact-card h2 {
+    margin-bottom: 1rem;
+    color: #00b4d8;
+  }
+  
+  /* Fade-in animation */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
